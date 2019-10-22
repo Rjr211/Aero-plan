@@ -1,0 +1,19 @@
+
+#header{
+
+}
+
+.brand-name{
+  font-family: 'Nanum Myeongjo', serif;
+  background-image: linear-gradient(to bottom, #fff 0%, #fff 62%, #fff 80%, gold 100%);
+  width: 17vh;
+  margin-left: 5vh;
+}
+
+.brand-name-secondary{
+  display: block;
+}
+
+.brand-name-primary{
+  display: block;
+}
