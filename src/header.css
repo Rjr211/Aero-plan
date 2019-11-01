@@ -6,44 +6,91 @@ body {
 #navBar{
   display: flex;
   width: 100%;
-  height: 13vh;
+  height: 19vh;
   background-color: #000;
   margin: 0;
   padding: 0;
 }
 
-.brand-name{
+.brand-name-primary{
   display: flex;
   font-family: 'Permanent Marker', cursive;
   color: #fff;
-  font-size: 6vh;
+  font-size: 9vh;
   text-align: left;
   text-decoration: bold;
   letter-spacing: .5px;
   margin-left: 10px;
-}
-
-ul{
-  margin-left:auto;
   align-items:center;
 }
 
-.nav-hotel{
+
+ul {
+  display: flex;
+  margin-left:auto;
+  align-items:center;
+  margin-right: 10px;
+}
+
+.nav-items{
+  font-family: 'Open Sans', sans-serif;
   display: inline;
   text-decoration: none;
   padding: 10px;
-  color:white;
+  color:#fff;
+  font-size: 15px;
 }
+
 
 a{
   text-decoration:none; 
   color:inherit;
 }
 
+a.nav-link
+{
+    position: relative;
+}
 
-.nav-flights{
+a.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.material-icons{
+  color:#fff;
+  font-size: 42px;
+}
+
+.nav-menu{
+  font-family: 'Open Sans', sans-serif;
   display: inline;
   text-decoration: none;
-  padding: 10px;
-  color:white;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 2560px){
+
+  .nav-menu{
+    display: none;
+  }
+}
+
+
+@media (max-width: 600px){
+.nav-items{
+  display: none;
+  }
 }
