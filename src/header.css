@@ -23,7 +23,32 @@ body {
   margin-left: 10px;
   align-items:center;
 }
+@media (max-width: 600px){
+  .brand-name-primary{
+    display: none;
+    }
+  }
 
+
+
+.brand-name-secondary{
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 16vh;
+  text-align: left;
+  text-decoration: bold;
+  letter-spacing: .75px;
+  margin-left: 10px;
+  align-items:center;
+}
+
+@media screen and (min-width: 600px) and (max-width: 2560px){
+
+  .brand-name-secondary{
+    display: none;
+  }
+}
 
 ul {
   display: flex;
@@ -71,13 +96,14 @@ a.nav-link:hover:before {
 
 .material-icons{
   color:#fff;
-  font-size: 42px;
+  font-size: 48px;
 }
 
 .nav-menu{
   font-family: 'Open Sans', sans-serif;
   display: inline;
   text-decoration: none;
+  padding: 10;
 }
 
 
@@ -94,3 +120,4 @@ a.nav-link:hover:before {
   display: none;
   }
 }
+
