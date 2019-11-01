@@ -3,10 +3,8 @@ import React, { Component } from "react";
 class Header extends Component {
 render(){
 return (
-    <div id="header" className="brand-name">
-      <h1>
-        <span className="brand-name-primary">Story</span>
-        <span className="brand-name-secondary">Traveler.</span>
+    <div id="navBar">
+      <h1 className="brand-name">StoryTraveler
         </h1>
      </div>
     );
