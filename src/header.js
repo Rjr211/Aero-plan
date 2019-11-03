@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./header.css";
 
 class Header extends Component {
 render(){
@@ -11,12 +12,12 @@ return (
             <ul>
               <li className="nav-menu">
                 <a href="#" >
-                 <i class="material-icons">menu</i>
+                 <i className="material-icons">menu</i>
                 </a>
               </li>
-              <li className="nav-items"><a href="#" class="nav-link">Hotels</a></li>
+              <li className="nav-items"><a href="#" className="nav-link">Hotels</a></li>
               <li className="nav-items">|</li>
-              <li className="nav-items"><a href="#" class="nav-link">Flights</a></li>
+              <li className="nav-items"><a href="#" className="nav-link">Flights</a></li>
             </ul>
      </div>
     );
