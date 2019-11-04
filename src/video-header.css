@@ -1,8 +1,21 @@
 
-.video-div{
+.video-div .overlay {
+  height: 22em;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.363);
+  opacity: 0.5;
+}
 
+.video-div{
+  display: flex;
+  height: 22em;
+  width: 100%;
   }
   
   .videoTag{
-
+    object-fit: fill;
+    max-width: 100%;
+    width: 100%;
   }

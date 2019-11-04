@@ -6,22 +6,29 @@ body {
 #navBar{
   display: flex;
   width: 100%;
-  height: 10vh;
+  height: 4rem;
   background-color: #000;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navBar h1{
+  max-width: 100%;
+
 }
 
 .brand-name-primary{
-  display: flex;
   font-family: 'Permanent Marker', cursive;
   color: #fff;
-  font-size: 30px;
+  font-size: 2.3rem;
   text-align: left;
   text-decoration: bold;
   letter-spacing: .5px;
   margin-left: 10px;
-  align-items:center;
+  margin-right: -10px;
   }
 
 .brand-name-primary:hover{
@@ -45,14 +52,13 @@ body {
 
 
 .brand-name-secondary{
-  display: flex;
   font-family: 'Permanent Marker', cursive;
   color: #fff;
-  font-size: 2rem;
+  font-size: 4rem;
   align-items:center;
   text-decoration: bold;
   letter-spacing: .5px;
-  align-items:center;
+  padding: 0;
 }
 
 .brand-name-secondary:hover{
@@ -68,7 +74,7 @@ body {
   }
 
 
-@media screen and (min-width: 800px) and (max-width: 2560px){
+@media screen and (min-width: 800px) and (max-width: 3560px){
 
   .brand-name-secondary{
     display: none;
@@ -88,7 +94,8 @@ ul {
   text-decoration: none;
   padding: 10px;
   color:#fff;
-  font-size: 15px;
+  font-size: .8rem;
+  text-transform: capitalize;
 }
 
 
@@ -133,7 +140,7 @@ a.nav-link:hover:before {
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 2560px){
+@media screen and (min-width: 700px) and (max-width: 2560px){
 
   .nav-menu{
     display: none;
@@ -141,7 +148,7 @@ a.nav-link:hover:before {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 700px){
 .nav-items{
   display: none;
   }

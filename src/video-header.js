@@ -6,6 +6,7 @@ class Video extends Component {
     render(){
         return(
                 <div className="video-div">
+                <div class="overlay"></div>
                     <video className='videoTag' autoPlay loop muted>
                         <source src={beach} type='video/mp4' />
                     </video>

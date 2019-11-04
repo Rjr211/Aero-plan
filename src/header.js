@@ -15,7 +15,11 @@ return (
                  <i className="material-icons">menu</i>
                 </a>
               </li>
-              <li className="nav-items"><a href="#" className="nav-link">Hotels</a></li>
+              <li className="nav-items"><a href="#" className="nav-link">home</a></li>
+              <li className="nav-items">|</li>
+              <li className="nav-items"><a href="#" className="nav-link">about us</a></li>
+              <li className="nav-items">|</li>
+              <li className="nav-items"><a href="#" className="nav-link">services</a></li>
               <li className="nav-items">|</li>
               <li className="nav-items"><a href="#" className="nav-link">Flights</a></li>
             </ul>
